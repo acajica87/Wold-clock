@@ -1,25 +1,38 @@
 body {
   background-image: url("https://images.pexels.com/photos/7412057/pexels-photo-7412057.jpeg");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: auto;
+  font-family: "Sulphur Point", sans-serif;
+  background-repeat: no repeat;
 }
-
-.container {
-  max-width: 600px;
-  margin: 60px auto;
-  background: whitesmoke;
-  padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 10px;
-  margin-top: 45px;
-}
-
 select {
   display: block;
   width: 100%;
   border-radius: 4px;
   padding: 10px;
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #222831;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  margin-top: 45px;
+  color: #ececec;
 }
 
 .city {
@@ -27,15 +40,11 @@ select {
   margin: 10px 0;
   justify-content: space-between;
   padding: 30px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed #fafafa;
 }
 
 .city:last-child {
   border: none;
-}
-
-h2 {
-  margin: 0;
 }
 
 .date {
@@ -52,12 +61,6 @@ h2 {
   font-size: 18px;
   vertical-align: middle;
   line-height: 36px;
-}
-
-h1 {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 36px;
 }
 
 footer {

@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>World Clock - Ana Cajica</title>
   </head>
@@ -12,30 +18,49 @@
     <div class="container">
       <h1>World Clock</h1>
 
-      <select name="" id="">
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">Toronto</option>
-        <option value="">London</option>
-        <option value="">Buenos Aires</option>
-        <option value="">Paris</option>
+        <option value="America/Toronto">Toronto</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Dubai">Dubai</option>
+        <option value="Asia/Shanghai">Shangai</option>
       </select>
 
-      <div class="city" id="mexico">
-        <div>
-          <h2>Mexico City 🇲🇽</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="mexico">
+          <div>
+            <h2>Mexico City 🇲🇽</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="newyork">
-        <div>
-          <h2>New York 🇺🇸</h2>
-          <div class="date"></div>
+        <div class="city" id="newyork">
+          <div>
+            <h2>New York 🇺🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
+
+        <div class="city" id="berlin">
+          <div>
+            <h2>Berlin 🇩🇪</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+
+        <div class="city" id="tokyo">
+          <div>
+            <h2>Tokyo 🇯🇵</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
       </div>
     </div>
+
     <footer>
       Coded by <strong>Ana Cajica</strong> is
       <a
