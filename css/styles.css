@@ -27,12 +27,13 @@ h2 {
 .container {
   max-width: 500px;
   margin: 60px auto;
-  background: #222831;
+  background: #fafafa;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   margin-top: 45px;
-  color: #ececec;
+  color: #3c4245;
+  opacity: 95%;
 }
 
 .city {
